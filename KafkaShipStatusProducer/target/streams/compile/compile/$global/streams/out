@@ -1,0 +1,9 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/mbn2671/Materials/Kafka/KafkaShipStatusProducer/src/main/scala/MyProducer.scala:21:12: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
+[0m[[0m[33mwarn[0m] [0m[0mIf you intended to match against object masterSend in package example, you must use backticks, like: case `masterSend` =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case masterSend => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/mbn2671/Materials/Kafka/KafkaShipStatusProducer/src/main/scala/MyProducer.scala:25:24: unreachable code due to variable pattern 'masterSend' on line 21[0m
+[0m[[0m[33mwarn[0m] [0m[0mIf you intended to match against object workDone in package example, you must use backticks, like: case `workDone` =>[0m
+[0m[[0m[33mwarn[0m] [0m[0m      case workDone => {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
